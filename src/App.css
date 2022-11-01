@@ -1,0 +1,49 @@
+.App {
+  font-size: 20px;
+}
+.App h1 {
+  font-size: 25px;
+}
+
+.grid { 
+  display: grid;
+ 
+ grid-template-areas:
+"header header header"
+"nav content content";
+ grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+  
+}
+.header {
+  grid-area: header;
+  background-color: green;
+}
+.nav {
+  grid-area: nav;
+  background-color: aqua;
+}
+.content {
+  grid-area:content;
+  background-color: blueviolet; 
+}
+.active {
+  color: gold;
+}
+
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  padding: 10px;
+}
+.ava {
+  width: 50px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex h2 {
+  margin-left: 10px;
+}

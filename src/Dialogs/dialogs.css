@@ -1,0 +1,4 @@
+.dialog-names {
+    display: flex;
+    flex-direction: column;
+}
